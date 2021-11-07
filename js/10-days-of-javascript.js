@@ -1,5 +1,5 @@
 "use strict";
-//Day one Problem one
+//Day zero Problem one
 // Overview: 10 Days of JavaScript
 // This series focuses on learning and practicing JavaScript. Each challenge comes with a tutorial article, and you can view these articles by clicking either the Topics tab along the top or the article icon in the right-hand menu.
 //
@@ -23,7 +23,7 @@ function greeting(parameterVariable) {
 }
 greeting("Welcome to 10 Days of JavaScript!");
 
-//Day one Problem two
+//Day zero Problem two
 // Objective
 //
 // Today, we're discussing data types. Check out the attached tutorial for more details.
@@ -72,3 +72,38 @@ function performOperation(secondInteger, secondDecimal, secondString) {
 }
 
 performOperation(12,4.32,"is the best place to learn and practice coding!")
+
+
+//Day One Arithmetic Operations
+
+/**
+ *   Calculate the area of a rectangle.
+ *
+ *   length: The length of the rectangle.
+ *   width: The width of the rectangle.
+ *
+ *	Return a number denoting the rectangle's area.
+ **/
+function getArea(length, width) {
+    let area;
+    // Write your code here
+    area = length*width
+    return area;
+}
+
+/**
+ *   Calculate the perimeter of a rectangle.
+ *
+ *	length: The length of the rectangle.
+ *   width: The width of the rectangle.
+ *
+ *	Return a number denoting the perimeter of a rectangle.
+ **/
+function getPerimeter(length, width) {
+    let perimeter;
+    // Write your code here
+    perimeter = 2*(length+width)
+    return perimeter;
+}
+console.log(getArea(3, 4.5));
+console.log(getPerimeter(3, 4.5));
