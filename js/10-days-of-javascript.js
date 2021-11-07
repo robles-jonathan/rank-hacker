@@ -107,3 +107,19 @@ function getPerimeter(length, width) {
 }
 console.log(getArea(3, 4.5));
 console.log(getPerimeter(3, 4.5));
+
+//Day one - Functions
+
+
+/*
+ * Create the function factorial here
+ */
+function factorial(n){
+    if( n === 0){
+        return 1;
+    }else{
+        return n * factorial(n-1)
+    }
+}
+
+console.log(factorial(4));
